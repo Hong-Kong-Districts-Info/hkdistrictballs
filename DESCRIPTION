@@ -1,0 +1,15 @@
+Package: hkdistrictballs
+Type: Package
+Title: Create Hong Kong District Ball Graphics
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Martin", family = "Chan", role = c("aut", "cre"), email = "martinchan53@gmail.com"),
+      person(given = "Ocean", family = "Cheung", role = c("ctb")))
+Description: Create Hong Kong District Ball Graphics, inspired by the original "Country Ball graphics". Each
+    District Ball represents one of the eighteen districts in Hong Kong. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magick
+RoxygenNote: 7.1.1

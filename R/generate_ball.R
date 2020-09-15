@@ -3,12 +3,10 @@
 #' @description Generate a basic District Ball image by
 #' specifying parameters for the district and the expression of the ball.
 #'
-#' @param district character string specifying the district. Valid inputs include "central-and-western",
-#' "eastern", "islands", "kowloon-city", "kwai-tsing", "kwun-tong", "north", "sai-kung", "sha-tin", "sham-shui-po",
-#' "southern", "tai-po", "tsuen-wan", "tuen-mun", "wan-chai", "wong-tai-sin", "yau-tsim-mong", and "yuen-long".
-#' Defaults to "blank".
-#' @param expression character string specifying the facial expression. Valid inputs include "fierce",
-#' "happy", "normal", "sad", "skeptical".
+#' @param district character string specifying the district. Run `district_options()` to
+#' find out all the valid options for this argument.
+#' @param expression character string specifying the facial expression.
+#' Run `expression_options()` to find out all the valid options for this argument.
 #' @param scale numeric value. Size of the image to scale to. Defaults to 200.
 #' @param vjust numeric value. Adjust the vertical position of the expression.
 #' @param hjust numeric value. Adjust the horizontal of the expression.

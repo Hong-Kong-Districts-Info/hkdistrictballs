@@ -9,7 +9,10 @@ generate_ball(
   expression = "happy",
   scale = 200,
   vjust = 1,
+  hjust = 1,
+  bg_colour = "#FFFFFF",
   caption = "",
+  caption_colour = "#000000",
   caption_size = 20
 )
 }
@@ -24,9 +27,15 @@ Defaults to "blank".}
 
 \item{scale}{numeric value. Size of the image to scale to. Defaults to 200.}
 
-\item{vjust}{numeric value. Adjust the height of the expression.}
+\item{vjust}{numeric value. Adjust the vertical position of the expression.}
+
+\item{hjust}{numeric value. Adjust the horizontal of the expression.}
+
+\item{bg_colour}{character string. HEX code for the background colour.}
 
 \item{caption}{character string. Caption to appear at top of image. Defaults to blank.}
+
+\item{caption_colour}{character string. HEX code for the caption colour.}
 
 \item{caption_size}{numeric value. Text size of the caption.}
 }

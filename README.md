@@ -23,7 +23,7 @@ library(hkdistrictballs)
 generate_ball("kowloon-city", "fierce", scale = 500, vjust = 1.0, caption = "We need cleaner streets!", caption_size = 30)
 ```
 
-![](man/figures/example-kowloon-city.png)
+![](https://raw.githubusercontent.com/Hong-Kong-Districts-Info/hkdistrictballs/main/man/figures/example-kowloon-city.png)
 
 You can also use functions from **magick** to combine plots:
 ```
@@ -35,4 +35,4 @@ ball_row <-
 magick::image_append(ball_row)
 ```
 
-![](man/figures/example-ball-row.png)
+![](https://raw.githubusercontent.com/Hong-Kong-Districts-Info/hkdistrictballs/main/man/figures/example-ball-row.png)
